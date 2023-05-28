@@ -29,6 +29,12 @@
       "text" : "привет"
     }, {
       "text" : "hello"
+    }, {
+      "text" : "Добрый день."
+    }, {
+      "text" : "добрый вечер"
+    }, {
+      "text" : "доброе утро"
     } ],
     "classificationRules" : {
       "refs" : [ ]
@@ -37,12 +43,19 @@
     "priority" : 0
   }, {
     "path" : "/currency",
+    "answer" : "Курс доллара к рублю не очень приятный",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "currency"
     }, {
       "text" : "курс валют"
+    }, {
+      "text" : "курс доллара"
+    }, {
+      "text" : "Курс евро"
+    }, {
+      "text" : "Курс Юань."
     } ],
     "classificationRules" : {
       "refs" : [ ]
