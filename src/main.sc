@@ -1,22 +1,20 @@
-require: slotfilling/slotFilling.sc
-  module = sys.zb-common
 theme: /
 
     state: Hello
         q!: *start
-        q!: * (привет*|здравствуй*|hello|hi) *
+        q!: * {(привет*/здравствуй*/hello/hi)} *
         random:
             a: Привет!
             a: Рад тебя видеть!
 
     state: Weather
-        q!: * (*погода|weather) *
+        q!: * {(*погода/weather)} *
         random:
             a: Погода хорошая
             a: Как-то не очень погода
 
     state: Currency
-        q!: * (курс*|валют*|currency) *
+        q!: * {(доллар*/курс*/валют*/currency)} *
         random:
             a: Доллары дорого
             a: Покупай юани
