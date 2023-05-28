@@ -22,7 +22,7 @@
     }
   },
   "intents" : [ {
-    "path" : "/Привет",
+    "path" : "/hello",
     "answer" : "",
     "enabled" : true,
     "shared" : false,
@@ -31,11 +31,17 @@
     }, {
       "text" : "hello"
     }, {
+      "text" : "/hello"
+    }, {
+      "text" : "Здравствуй"
+    }, {
       "text" : "добрый день"
+    }, {
+      "text" : "добрый вечер"
     }, {
       "text" : "доброе утро"
     }, {
-      "text" : "hi"
+      "text" : "доброй ночи"
     } ],
     "classificationRules" : {
       "refs" : [ ]
@@ -43,7 +49,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/Погода",
+    "path" : "/weather",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
@@ -51,11 +57,13 @@
     }, {
       "text" : "weather"
     }, {
-      "text" : "дождь"
+      "text" : "/weather"
     }, {
-      "text" : "снег"
+      "text" : "what's the weather"
     }, {
-      "text" : "ветер"
+      "text" : "какая погода"
+    }, {
+      "text" : "Будет ли дождь?"
     } ],
     "classificationRules" : {
       "refs" : [ ]
@@ -63,17 +71,19 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/Курс валют",
+    "path" : "/currency",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
+      "text" : "доллар"
+    }, {
+      "text" : "рубль"
+    }, {
       "text" : "курс"
     }, {
       "text" : "currency"
     }, {
-      "text" : "доллар"
-    }, {
-      "text" : "рубль"
+      "text" : "/currency"
     } ],
     "classificationRules" : {
       "refs" : [ ]

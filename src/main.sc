@@ -1,28 +1,28 @@
 theme: /
 
-    state: Hello
+    state: /hello
         q!: $regex</start>
-        intent!: /Привет
+        intent!: /hello
         random: 
             a: Привет!
             a: Рад тебя видеть!
 
-    state: Weather
-        intent!: /Погода
+    state: /weather
+        intent!: /weather
         random:
             a: Погода хорошая
             a: Как-то не очень погода
             a: Дождя не будет (но это не точно)
             a: Мне нравится любая погода
 
-    state: Currency
-        intent!: /Курс валют
+    state: /currency
+        intent!: /currency
         random:
             a: Доллары дорого
             a: Покупай юани
             a: Скоро все рублями платить будут
 
-    state: NoMatch
+    state: /NoMatch
         event!: noMatch
         random:
             a: Извини, я не понял твой запрос
