@@ -22,26 +22,46 @@
     }
   },
   "intents" : [ {
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "priority" : 0
-  }, {
-    "path" : "/привет",
+    "path" : "/hello",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "привет"
+    }, {
+      "text" : "hello"
     } ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/currency",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "currency"
+    }, {
+      "text" : "курс валют"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/weather",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "weather"
+    }, {
+      "text" : "погода"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],

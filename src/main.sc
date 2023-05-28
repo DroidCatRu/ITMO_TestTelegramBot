@@ -12,7 +12,7 @@ theme: /
 
     state: Weather
         intent!: /weather
-        a: Пока пока
+        a: Погода хорошая
 
     state: Currency
         intent!: /currency
