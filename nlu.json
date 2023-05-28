@@ -21,62 +21,7 @@
       "answerValidationThreshold" : 0.8
     }
   },
-  "intents" : [ {
-    "path" : "/hello",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    }, {
-      "text" : "hello"
-    }, {
-      "text" : "Добрый день."
-    }, {
-      "text" : "добрый вечер"
-    }, {
-      "text" : "доброе утро"
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "patterns" : [ ],
-    "priority" : 0
-  }, {
-    "path" : "/currency",
-    "answer" : "Курс доллара к рублю не очень приятный",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "currency"
-    }, {
-      "text" : "курс валют"
-    }, {
-      "text" : "курс доллара"
-    }, {
-      "text" : "Курс евро"
-    }, {
-      "text" : "Курс Юань."
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "patterns" : [ ],
-    "priority" : 0
-  }, {
-    "path" : "/weather",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "weather"
-    }, {
-      "text" : "погода"
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "patterns" : [ ],
-    "priority" : 0
-  } ],
+  "intents" : [ ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
