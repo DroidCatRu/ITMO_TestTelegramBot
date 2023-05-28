@@ -1,20 +1,22 @@
 theme: /
 
     state: Hello
-        q!: *start
-        q!: * {(привет*/здравствуй*/hello/hi)} *
-        random:
+        q!: $regex</start>
+        intent!: /Привет
+        random: 
             a: Привет!
             a: Рад тебя видеть!
 
     state: Weather
-        q!: * {(*погода/weather)} *
+        intent!: /Погода
         random:
             a: Погода хорошая
             a: Как-то не очень погода
+            a: Дождя не будет (но это не точно)
+            a: Мне нравится любая погода
 
     state: Currency
-        q!: * {(доллар*/курс*/валют*/currency)} *
+        intent!: /Курс валют
         random:
             a: Доллары дорого
             a: Покупай юани

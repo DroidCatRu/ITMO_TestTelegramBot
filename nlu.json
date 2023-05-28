@@ -21,7 +21,66 @@
       "answerValidationThreshold" : 0.8
     }
   },
-  "intents" : [ ],
+  "intents" : [ {
+    "path" : "/Привет",
+    "answer" : "",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "привет"
+    }, {
+      "text" : "hello"
+    }, {
+      "text" : "добрый день"
+    }, {
+      "text" : "доброе утро"
+    }, {
+      "text" : "hi"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Погода",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "погода"
+    }, {
+      "text" : "weather"
+    }, {
+      "text" : "дождь"
+    }, {
+      "text" : "снег"
+    }, {
+      "text" : "ветер"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/Курс валют",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "курс"
+    }, {
+      "text" : "currency"
+    }, {
+      "text" : "доллар"
+    }, {
+      "text" : "рубль"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
