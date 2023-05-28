@@ -7,12 +7,16 @@ theme: /
         a: Начнём.
 
     state: Hello
-        intent!: /привет
+        intent!: /hello
         a: Привет привет
 
-    state: Bye
-        intent!: /пока
+    state: Weather
+        intent!: /weather
         a: Пока пока
+
+    state: Currency
+        intent!: /currency
+        a: Доллары дорого
 
     state: NoMatch
         event!: noMatch
