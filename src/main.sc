@@ -27,7 +27,3 @@ theme: /
         random:
             a: Извини, я не понял твой запрос
             a: К сожалению, ничего не могу ответить на это
-
-    state: Match
-        event!: match
-        a: {{$context.intent.answer}}
